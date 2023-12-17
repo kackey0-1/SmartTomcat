@@ -144,7 +144,7 @@ public final class PluginUtils {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 
         try {
-            dbf.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+            // dbf.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
             dbf.setFeature("http://xml.org/sax/features/external-general-entities", false);
             dbf.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
             dbf.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
